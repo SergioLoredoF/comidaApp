@@ -1,0 +1,24 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.formulario {
+    background-color: v.$primario;
+
+    &__campo-label {
+        display: block;
+        text-transform: uppercase;
+        color: v.$blanco;
+        margin: 1rem 0;
+    }
+
+    &__campo-input {
+        border: none;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    &__campo-submit {
+        margin-top: 1.5rem;
+        @include m.boton(v.$secundario, v.$blanco);
+    }
+}

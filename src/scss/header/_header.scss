@@ -1,0 +1,12 @@
+@use '../base/variables' as v;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    
+    &__logo {
+        min-width: 75%;
+        margin: 0 auto;
+        margin: v.$separacion auto;
+    }
+}

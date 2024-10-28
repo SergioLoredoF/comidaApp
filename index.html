@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/build/css/app.css">
+</head>
+<body>
+
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo.svg" alt="Logo Delivery app">
+        </div>
+
+        <nav class="navegacion">
+            <a href="#" class="navegacion__link">Iniciar sesión</a>
+            <a href="#" class="navegacion__link">Crear cuenta</a>
+            <a href="#" class="navegacion__link navegacion__link--registrar">Registrar restaurant</a>
+        </nav>
+    </header>
+
+    <section class="buscador contenedor">
+        <h2 class="buscador__heading text-center">
+            Encuentra y pide comida de tu restaurante favorito
+        </h2>
+
+        <form action="" class="formulario">
+            <div class="formulario__campo">
+                <label for="restaurant" class="formulario__campo-label">Restaurant</label>
+                <input type="text" name="restaurant" placeholder="Tacos México" class="formulario__campo-input">
+            </div> <!--Form input-->
+
+            <div class="formulario__campo">
+                <label for="platillo" class="formulario__campo-label">Platillo</label>
+                <input type="text" name="platillo" placeholder="Pizza, Ensalada, Hamburguesas" class="formulario__campo-input">
+            </div> <!--Form input-->
+
+            <div class="formulario__campo">
+                <input class="formulario__campo-submit" type="submit" value="Buscar">
+            </div> <!--Form input-->
+
+        </form>
+
+    </section>
+    
+</body>
+</html>
